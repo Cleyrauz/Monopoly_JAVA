@@ -24,4 +24,9 @@ public class DiceTest {
         assertTrue(String.valueOf(true), dice.roll());
     }
 
+    @Test
+    public void canCheckIsDoubles(){
+        assertTrue(String.valueOf(true), dice.isDouble());
+    }
+
 }

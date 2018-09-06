@@ -24,5 +24,15 @@ public class Dice {
             return false;
         }
     }
+
+    public boolean isDouble() {
+        if (dice1 == dice2 ) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
 }
 
