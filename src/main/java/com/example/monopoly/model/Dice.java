@@ -15,24 +15,13 @@ public class Dice {
     }
 
 
-    public boolean roll() {
+    public void roll() {
         dice1 = (int) (Math.random() * 6) + 1;
         dice2 = (int) (Math.random() * 6) + 1;
-        if (dice1 + dice2 != 0) {
-            return true;
-        } else {
-            return false;
-        }
     }
 
     public boolean isDouble() {
-        if (dice1 == dice2 ) {
-            return true;
-        }
-        else {
-            return false;
-        }
+        return dice1 == dice2 && dice1 + dice2 != 0;
     }
 
 }
-

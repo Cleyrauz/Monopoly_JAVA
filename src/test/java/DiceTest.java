@@ -21,12 +21,17 @@ public class DiceTest {
 
     @Test
     public void canRollTheDice(){
-        assertTrue(String.valueOf(true), dice.roll());
+        dice.roll();
+            assertTrue("roll() is true, if the value after throws the dice is different to 0",
+                    dice.getDiceValue() != 0);
     }
 
     @Test
-    public void canCheckIsDoubles(){
-        assertTrue(String.valueOf(true), dice.isDouble());
+    public void canCheckIsDouble(){
+        dice.roll();
+        if(dice.isDouble())
+            assertTrue("isDoubles() is true, but dice values must be different",
+                    dice.getDiceValue() % 2 == 0);
     }
 
 }
