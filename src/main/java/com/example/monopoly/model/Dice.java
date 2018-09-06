@@ -15,5 +15,14 @@ public class Dice {
     }
 
 
+    public boolean roll() {
+        dice1 = (int) (Math.random() * 6) + 1;
+        dice2 = (int) (Math.random() * 6) + 1;
+        if (dice1 + dice2 != 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
 
