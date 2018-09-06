@@ -15,6 +15,4 @@ public abstract class Space {
 
     public abstract String getText();
 
-    public abstract
-
 }
