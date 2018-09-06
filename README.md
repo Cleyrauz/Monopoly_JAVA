@@ -7,13 +7,13 @@ I have been tasked to create a simple Monopoly Game. For that I need to define t
 Create a playing board based on the standard Monopoly board and all related equipment.
 
 ## User story #2:
-Setup the playing board and equipment to allow between two to ten players.
+Setup the playing board and equipment to allow between two players.
 
 ## User story #3:
   Allow players to roll the dice and move their characters around the board, clockwise. Roll the dice to see who goes first. This highest roll begins the game.
 
 ## User story #4:
-  Create a bank and identify one player to be the banker. The bank must be able to manage all the money transactions in the game, and manage property transactions. The bank must never run out of money.
+  Create a bank. The bank must be able to manage all the money transactions in the game, and manage property transactions. The bank must never run out of money.
 
 ## User story #5:
   Players can purchase a piece of property when they land on an un-owned parcel. The price depends upon the neighborhood.
@@ -43,10 +43,10 @@ Setup the playing board and equipment to allow between two to ten players.
   House rule: When a player lands on "Go" by direct count, she receives $400 rather than $200.
 
 ## User story #14:
-  Allow the players to choose which house rules they want before starting the game.
+  Each time a player has a double in the dice he returns to play.
 
 ## User story #15:
-  Provide "theme" boards so players can play in their own neighborhoods. Change the board graphics, the playing pieces, the real-estate prices, and the cards.
+  Each player starts the game with $1500.
 
 
 
