@@ -1,8 +1,8 @@
 package com.example.monopoly.model;
 
 public abstract class Space {
-    private String name;
-    private String text;
+    protected String name;
+    protected String text;
 
     public Space(String name, String text) {
         this.name = name;

@@ -11,7 +11,7 @@ public class DiceTest {
 
     @Before
     public void setUp() {
-        dice = new Dice();
+        dice = new Dice(1);
     }
 
     @Test
@@ -29,9 +29,17 @@ public class DiceTest {
     @Test
     public void canCheckIsDouble(){
         dice.roll();
-        if(dice.isDouble())
-            assertTrue("isDoubles() is true, but dice values must be different",
-                    dice.getDiceValue() % 2 == 0);
+        assertTrue(dice.isDouble());
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void diceValueIsNotZero(){
+        dice = new Dice(0);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void diceValueGraterThanSix(){
+        dice = new Dice(7);
     }
 
 }

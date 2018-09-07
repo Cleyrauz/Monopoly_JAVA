@@ -1,20 +1,22 @@
 package com.example.monopoly.model;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Board {
 
-    private ArrayList<Space> spaces;
+    private List<Space> spaces;
 
     public Board() {
         this.spaces = new ArrayList<Space>();
+        initiateBoard();
     }
 
-    public ArrayList<Space> getSpaces() {
+    public List<Space> getSpaces() {
         return spaces;
     }
 
-    public void setSpaces(ArrayList<Space> spaces) {
-        this.spaces = spaces;
+    private void initiateBoard() {
+        spaces.add(new Street("Cumberland", "St"));
     }
 }
