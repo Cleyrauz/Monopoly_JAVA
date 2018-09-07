@@ -50,5 +50,11 @@ public class Board {
         spaces.add(new Go("Go", "Collect M200 salary as you pass!"));
         spaces.add(new Tax("Super Tax", "Pay M100"));
         spaces.add(new Tax("Income Tax", "Pay M200"));
+        spaces.add(new CommunityChest("Community Chest I", "Pick a card!"));
+        spaces.add(new CommunityChest("Community Chest II", "Pick a card!"));
+        spaces.add(new CommunityChest("Community Chest III", "Pick a card!"));
+        spaces.add(new Chance("Chance I", "?"));
+        spaces.add(new Chance("Chance II", "?"));
+        spaces.add(new Chance("Chance III", "?"));
     }
 }
