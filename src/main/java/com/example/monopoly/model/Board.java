@@ -45,8 +45,7 @@ public class Board {
         spaces.add(new Service("Fenchurch St. Station", "M200"));
         spaces.add(new Service("Water Works", "M150"));
         spaces.add(new Service("Liverpool St. Station", "M200"));
-        spaces.add(new FreeParking("Free Parking", "Collect the money located into the center of the board!"));
-        
+        spaces.add(new FreeParking("Free Parking", "Collect the money!"));
 
     }
 }
