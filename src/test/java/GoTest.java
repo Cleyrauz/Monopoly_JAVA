@@ -16,10 +16,9 @@ public class GoTest {
     public void hasAName(){
       assertEquals("Go", go.getName());
     }
-    
+
     @Test
     public void hasText(){
         assertEquals("Collect M200 salary as you pass!", go.getText());
-
     }
 }

@@ -9,7 +9,7 @@ public class GoToJailTest {
 
     @Before
     public void setUp(){
-        goToJail = new GoToJail("Go to Jail", "Bad luck!");
+        goToJail = new GoToJail("Go to Jail", "Just visiting");
     }
 
     @Test
@@ -19,6 +19,6 @@ public class GoToJailTest {
 
     @Test
     public void hasText(){
-        assertEquals("Bad luck!", goToJail.getText());
+        assertEquals("Just visiting", goToJail.getText());
     }
 }
