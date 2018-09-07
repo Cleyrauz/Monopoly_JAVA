@@ -39,8 +39,12 @@ public class Board {
         spaces.add(new Street("Leicester Square", "M260"));
         spaces.add(new Street("Coventry Street", "M260"));
         spaces.add(new Street("Piccadilly", "M280"));
-
-
+        spaces.add(new Service("Kings Cross Station", "M200"));
+        spaces.add(new Service("Electric Company", "M150"));
+        spaces.add(new Service("Marylebone Station", "M200"));
+        spaces.add(new Service("Fenchurch St. Station", "M200"));
+        spaces.add(new Service("Water Works", "M150"));
+        spaces.add(new Service("Liverpool St. Station", "M200"));
 
     }
 }
