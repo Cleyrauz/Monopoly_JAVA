@@ -17,6 +17,30 @@ public class Board {
     }
 
     private void initiateBoard() {
-        spaces.add(new Street("Cumberland", "St"));
+        spaces.add(new Street("Regent Street", "M300"));
+        spaces.add(new Street("Oxford Street", "M300"));
+        spaces.add(new Street("Bond Street", "M320"));
+        spaces.add(new Street("Park Line", "M320"));
+        spaces.add(new Street("Mayfair", "M400"));
+        spaces.add(new Street("Old Kent Road", "60"));
+        spaces.add(new Street("White Chapel Road", "M60"));
+        spaces.add(new Street("The Angel Islington", "M100"));
+        spaces.add(new Street("Euston Road", "M100"));
+        spaces.add(new Street("Pentonville Road", "M120"));
+        spaces.add(new Street("Palm Mal", "M140"));
+        spaces.add(new Street("WhiteHall", "M140"));
+        spaces.add(new Street("Northumberland Avenue", "M160"));
+        spaces.add(new Street("Bow Street", "M180"));
+        spaces.add(new Street("Marlborough street", "M180"));
+        spaces.add(new Street("Vine Street", "M200"));
+        spaces.add(new Street("Strand", "M220"));
+        spaces.add(new Street("Fleet Street", "M220"));
+        spaces.add(new Street("Trafalgar Square", "M240"));
+        spaces.add(new Street("Leicester Square", "M260"));
+        spaces.add(new Street("Coventry Street", "M260"));
+        spaces.add(new Street("Piccadilly", "M280"));
+
+
+
     }
 }
