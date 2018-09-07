@@ -48,6 +48,7 @@ public class Board {
         spaces.add(new FreeParking("Free Parking", "Collect the money!"));
         spaces.add(new GoToJail("Go To Jail", "Just visiting"));
         spaces.add(new Go("Go", "Collect M200 salary as you pass!"));
-
+        spaces.add(new Tax("Super Tax", "Pay M100"));
+        spaces.add(new Tax("Income Tax", "Pay M200"));
     }
 }
