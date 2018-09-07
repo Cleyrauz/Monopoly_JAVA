@@ -12,7 +12,7 @@ public class GoToJailTest {
         goToJail = new GoToJail("Go to Jail", "Bad luck!");
     }
 
-    @Test 
+    @Test
     public void hasName(){
         assertEquals("Go to Jail", goToJail.getName());
     }

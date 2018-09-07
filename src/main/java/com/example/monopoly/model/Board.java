@@ -46,6 +46,7 @@ public class Board {
         spaces.add(new Service("Water Works", "M150"));
         spaces.add(new Service("Liverpool St. Station", "M200"));
         spaces.add(new FreeParking("Free Parking", "Collect the money!"));
+        spaces.add(new GoToJail("Go To Jail", "Bad luck!"));
 
     }
 }
