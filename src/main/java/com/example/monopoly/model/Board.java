@@ -26,7 +26,7 @@ public class Board {
         spaces.add(new Street("White Chapel Road", "M60"));
         spaces.add(new Street("The Angel Islington", "M100"));
         spaces.add(new Street("Euston Road", "M100"));
-        spaces.add(new Street("Pentonville Road", "M120"));
+        spaces.add(new Street("Pentonvilla Road", "M120"));
         spaces.add(new Street("Palm Mal", "M140"));
         spaces.add(new Street("WhiteHall", "M140"));
         spaces.add(new Street("Northumberland Avenue", "M160"));
