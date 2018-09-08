@@ -23,4 +23,15 @@ public class PlayerTest {
         assertEquals(1500, player.getPocketMoney(), 0.0);
     }
 
+    @Test
+    public void hasPosition(){
+        assertEquals(0, player.getPosition());
+    }
+
+    @Test
+    public void canMove(){
+        player.move(7);
+        assertEquals(7, player.getPosition());
+    }
+
 }
