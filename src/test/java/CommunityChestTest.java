@@ -1,4 +1,4 @@
-import com.example.monopoly.model.CommunityChest;
+import com.example.monopoly.model.board.space.CommunityChest;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

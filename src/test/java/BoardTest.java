@@ -1,4 +1,4 @@
-import com.example.monopoly.model.Board;
+import com.example.monopoly.model.board.Board;
 
 public class BoardTest {
 

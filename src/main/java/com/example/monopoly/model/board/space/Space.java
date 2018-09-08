@@ -1,4 +1,4 @@
-package com.example.monopoly.model;
+package com.example.monopoly.model.board.space;
 
 public abstract class Space {
     protected String name;

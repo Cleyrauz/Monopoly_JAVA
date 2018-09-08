@@ -1,9 +1,9 @@
-package com.example.monopoly.model;
+package com.example.monopoly.model.board.space;
 
-public class Service extends Space {
+import com.example.monopoly.model.board.space.Space;
 
-
-    public Service(String name, String text) {
+public class GoToJail extends Space {
+    public GoToJail(String name, String text) {
         super(name, text);
     }
 

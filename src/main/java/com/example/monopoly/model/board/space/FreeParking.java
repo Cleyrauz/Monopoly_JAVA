@@ -1,8 +1,9 @@
-package com.example.monopoly.model;
+package com.example.monopoly.model.board.space;
 
+import com.example.monopoly.model.board.space.Space;
 
-public class Chance extends Space {
-    public Chance(String name, String text) {
+public class FreeParking extends Space {
+    public FreeParking(String name, String text) {
         super(name, text);
     }
 

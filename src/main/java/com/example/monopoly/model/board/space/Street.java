@@ -1,7 +1,11 @@
-package com.example.monopoly.model;
+package com.example.monopoly.model.board.space;
 
-public class CommunityChest extends Space {
-    public CommunityChest(String name, String text) {
+import com.example.monopoly.model.board.space.Space;
+
+public class Street extends Space {
+
+
+    public Street(String name, String text) {
         super(name, text);
     }
 

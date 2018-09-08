@@ -1,4 +1,4 @@
-import com.example.monopoly.model.Chance;
+import com.example.monopoly.model.board.space.Chance;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

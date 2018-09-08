@@ -1,4 +1,6 @@
-package com.example.monopoly.model;
+package com.example.monopoly.model.board;
+
+import com.example.monopoly.model.board.space.*;
 
 import java.util.ArrayList;
 import java.util.List;

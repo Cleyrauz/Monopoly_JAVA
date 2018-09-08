@@ -1,4 +1,4 @@
-import com.example.monopoly.model.Tax;
+import com.example.monopoly.model.board.space.Tax;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
