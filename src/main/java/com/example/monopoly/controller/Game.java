@@ -23,8 +23,13 @@ public class Game {
         return players;
     }
 
-//    public Player whoPlayFirst(){
-//
-//    }
-
+    public Player whoPlayFirst(int resultPlayer1, int resultPlayer2){
+        if (resultPlayer1 == resultPlayer2) {
+            System.out.println("Roll the dice again! The values are equals.");
+            return null;
+        }
+            System.out.println("Player 1 roll the dice " + resultPlayer1);
+            System.out.println("Player 2 roll the dice " + resultPlayer2);
+            return resultPlayer1 > resultPlayer2 ? players[0] : players[1];
+    }
 }

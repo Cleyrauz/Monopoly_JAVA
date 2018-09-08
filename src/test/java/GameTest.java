@@ -12,6 +12,7 @@ public class GameTest {
     @Before
     public void setUp(){
         game = new Game();
+        game.setUpPlayers("Cleyra","Cheche");
     }
 
     @Test
@@ -19,10 +20,15 @@ public class GameTest {
         assertEquals(2, game.setUpPlayers("Cleyra", "Cheche").length);
     }
 
-//    @Test
-//    public void canDeterminateWhoPlayFirst(){
-//
-//    }
+    @Test
+    public void canDeterminateWhoPlayFirst(){
+        assertEquals("Cleyra", game.whoPlayFirst(12,6).getName());
+    }
+
+    @Test
+    public void canNotDeterminateWhoPlayFirst(){
+        assertEquals(null, game.whoPlayFirst(6,6));
+    }
 
 
 }
