@@ -1,5 +1,7 @@
 package com.example.monopoly.model;
 
+import java.util.Objects;
+
 public class Player {
 
     private double pocketMoney;
@@ -39,4 +41,5 @@ public class Player {
     public void move(int diceResult){
         this.position += diceResult;
     }
+
 }
